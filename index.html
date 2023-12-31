@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web không thể truy cập</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffeadb;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff4081;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        .firework {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ff4081;
+            border-radius: 50%;
+            animation: fireworks 1s ease-out infinite;
+        }
+
+        @keyframes fireworks {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bạn quá lùn nên không thể truy cập trang web</h1>
+        <p>Hãy cố gắng tăng chiều cao của bạn để có thể truy cập trang web này.</p>
+        <div class="firework"></div>
+    </div>
+</body>
+</html>
